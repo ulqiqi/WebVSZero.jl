@@ -1,0 +1,12 @@
+name = "WebVSZero"
+uuid = "54777f56-f629-4d1b-9ace-283665e3ae69"
+version = "0.1.0"
+authors = ["ulqi <ulqi@protonmail.com>"]
+
+[deps]
+AlphaZero = "8ed9eb0b-7496-408d-8c8b-2119aeea02cd"
+KaimonSlate = "f7b954f5-0334-4562-ac21-b005218ce1da"
+
+[compat]
+AlphaZero = "0.5.5"
+KaimonSlate = "1.11.1"
