@@ -1,5 +1,6 @@
 module WebVSZero
 
-greet() = print("Hello World!")
+using AlphaZero
+using KaimonSlate
 
-end # module WebVSZero
+end
