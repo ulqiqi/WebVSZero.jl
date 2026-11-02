@@ -1,10 +1,17 @@
 name = "WebVSZero"
 uuid = "54777f56-f629-4d1b-9ace-283665e3ae69"
-version = "0.1.0"
 authors = ["ulqi <ulqi@protonmail.com>"]
+version = "0.1.0"
 
 [deps]
 AlphaZero = "8ed9eb0b-7496-408d-8c8b-2119aeea02cd"
+CUDA = "052768ef-5323-5732-b1bb-66c8b64840ba"
+Serialization = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
+cuDNN = "02a925ec-e4fe-4b08-9a7e-0d78e3d38ccd"
 
 [compat]
 AlphaZero = "0.5.5"
+CUDA = "5.11.1"
+Serialization = "1.11.0"
+cuDNN = "1.4.7"
+julia = "~1.11"
