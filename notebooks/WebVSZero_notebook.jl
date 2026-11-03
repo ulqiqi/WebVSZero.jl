@@ -21,7 +21,7 @@ Alphazero est un algorithme créé par l'entreprise Google DeepMind, pour les je
 @md"""
 ## 3. Entrainement de l'agent Puissance 4 (avec ALphazero.jl)
 
-Le tutoriel utilisé pour l'entrainement de l'agent est disponible [ici](https://jonathan-laurent.github.io/AlphaZero.jl/dev/tutorial/connect_four/). Le code proposé dans le tutoriel a été légeremment modifiés pour y incorporer la libraie CUDA et cuDNN, afin de faciliter l'entraînement sur un GPU nVidia. Les fichiers train.jl, check_gpu.jl, test_agent.jl ainsi que le fichier WebVSZero.jl ont été modifiés à l'aide de Claude mais seront supprimés dans le repo final une fois l'entraînement terminé afin de ne pas être évalués.
+Le tutoriel utilisé pour l'entrainement de l'agent est disponible [ici](https://jonathan-laurent.github.io/AlphaZero.jl/dev/tutorial/connect_four/). Le code proposé dans le tutoriel a été légeremment modifiés pour y incorporer la libraie CUDA et cuDNN, afin de faciliter l'entraînement sur un GPU nVidia. Les fichiers train.jl et check_gpu.jl ont été modifiés à l'aide de Claude. Un test d'entraînement sur CPU avait été effectué, avant d'envoyer le training à un GPU NVIDIA (fichier test_agent.jl, ainsi que 2 fonctions dans le fichier src/WebVSZero.jl), eux aussi rédigés par Claude, mais ont été supprimés depuis, car hors du cadre du projet (et spécifiques à mon cas d'utilisation, pas nécéssaires dans le package générique).
 """
 
 #%% md id=2aeefa
